@@ -30,7 +30,4 @@ int yyerror(char* s)
 	printf("\nExpression is invalid\n");
 }
 
-int yywrap()
-{
-return (1);
-}
+
